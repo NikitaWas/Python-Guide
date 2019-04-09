@@ -53,3 +53,9 @@ a = int(input())
 b = a//60%24
 c = a%60
 print(b,c)
+
+print('Следующее и предыдущее')
+n = int(input())
+
+print ('The next number for the number '+str(n)+ ' is ' +str(n+1)+ '.')
+print ('The previous number for the number '+str(n)+ ' is ' +str(n-1)+ '.')
