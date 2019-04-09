@@ -24,3 +24,11 @@ d = int(input())
 e = int(input())
 f = d + e
 print(f)
+
+
+print('Сумма трёх чисел')
+# Можете ли вы изменить её, чтобы она складывала три числа?
+a = int(input())
+b = int(input())
+c = int(input())
+print(a + b + c)
