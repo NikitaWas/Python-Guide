@@ -32,3 +32,12 @@ a = int(input())
 b = int(input())
 c = int(input())
 print(a + b + c)
+
+print('Площадь прямоугольного треугольника')
+# Числа b и h можно считывать так:
+print('Введите число b')
+b = int(input())
+print('Введите число h')
+h = int(input())
+a = (1/2 * (b * h))
+print(a)
