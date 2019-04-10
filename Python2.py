@@ -52,3 +52,14 @@ if x < y:
     print(x)
 else:
     print(y)
+
+print('Задача «Знак числа»')
+print("Введите любое число")
+x = int(input())
+if x > 0:
+    print(1)
+elif x < 0:
+    print(-1)
+else:
+    print(0)
+    
