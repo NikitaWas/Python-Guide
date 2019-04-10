@@ -59,3 +59,11 @@ n = int(input())
 
 print ('The next number for the number '+str(n)+ ' is ' +str(n+1)+ '.')
 print ('The previous number for the number '+str(n)+ ' is ' +str(n-1)+ '.')
+
+print('Парты')
+a = int(input())
+b = int(input())
+c = int(input())
+e = ((a + b + c) // 2)
+d = ((a + b + c) % 2)
+print(e + d)
