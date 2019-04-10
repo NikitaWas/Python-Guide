@@ -44,3 +44,11 @@ else:
     print("Третья четверть")
 
 print('Задача «Минимум из двух чисел»')
+print("Введите любое число")
+x = int(input())
+print("Введите любое число")
+y = int(input())
+if x < y:
+    print(x)
+else:
+    print(y)
