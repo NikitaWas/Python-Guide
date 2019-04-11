@@ -69,12 +69,25 @@ y1 = int(input())
 x2 = int(input())
 y2 = int(input())
 if (x1 + y1) % 2 == 0:
- if (x2 + y2) % 2 == 0:
-  print("YES")
- else:
-  print("NO")
+    if (x2 + y2) % 2 == 0:
+        print("YES")
+    else:
+        print("NO")
 else:
     if (x2 + y2) % 2 != 0:
         print("YES")
     else:
         print("NO")
+
+print('Задача «Високосный год»')
+a = int(input())
+if a % 4 == 0:
+    if a % 100 == 0:
+        if a % 400 == 0:
+            print('YES')
+        else:
+            print('NO')
+    else:
+        print('YES')
+else:
+    print('NO')
