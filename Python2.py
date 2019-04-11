@@ -101,3 +101,22 @@ c = int(input())
 S = [a, b, c]
 m = min(S)
 print(m)
+
+print("Задача «Сколько совпадает чисел»")
+a = int(input())
+b = int(input())
+c = int(input())
+if a == b == c:
+    print(3)
+elif a == b != c:
+    print(2)
+elif a != b:
+    if a == c:
+        print(2)
+    else:
+        if c == b:
+            print(2)
+        else:
+            print(0)
+else:
+    print(0)
