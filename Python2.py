@@ -91,3 +91,13 @@ if a % 4 == 0:
         print('YES')
 else:
     print('NO')
+
+
+
+print("Задача «Минимум из трех чисел»")
+a = int(input())
+b = int(input())
+c = int(input())
+S = [a, b, c]
+m = min(S)
+print(m)
