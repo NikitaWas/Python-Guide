@@ -214,3 +214,8 @@ print('Задача «МКАД»')
 v = int(input())
 t = int(input())
 print((v * t) % 109)
+
+print('Задача «Дробная часть»')
+x = float(input())
+n = x % 1
+print(round(n, 3))
