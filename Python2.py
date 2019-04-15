@@ -209,3 +209,8 @@ if y >= m / 2:
 S = [x, y]
 n = min(S)
 print(n)
+
+print('Задача «МКАД»')
+v = int(input())
+t = int(input())
+print((v * t) % 109)
