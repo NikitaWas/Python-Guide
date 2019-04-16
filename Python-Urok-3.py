@@ -15,7 +15,7 @@ x = float(input())
 n = x % 1
 print(round(n, 3))
 
-print('Задача «Дробная часть»')
+print('Задача «Первая цифра после точки»')
 x = float(input())
 n = x % 1
 v = str(n)
