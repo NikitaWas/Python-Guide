@@ -50,3 +50,15 @@ b = int(input())
 n = int(input())
 x = n * (100 * a + b)
 print(x // 100, x % 100)
+
+print('Задача «Разность времен»')
+h0 = int(input())
+m0 = int(input())
+s0 = int(input())
+h1 = int(input())
+m1 = int(input())
+s1 = int(input())
+A = h0 * 3600 + m0 * 60 + s0
+B = h1 * 3600 + m1 * 60 + s1
+S = abs(A - B)
+print(S)
