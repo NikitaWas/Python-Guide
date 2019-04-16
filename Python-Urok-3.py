@@ -62,3 +62,10 @@ A = h0 * 3600 + m0 * 60 + s0
 B = h1 * 3600 + m1 * 60 + s1
 S = abs(A - B)
 print(S)
+
+print('Задача «Улитка»')
+h = int(input())
+a = int(input())
+b = int(input())
+n = int((h - a - 1) // (a - b) + 2)
+print(n)
