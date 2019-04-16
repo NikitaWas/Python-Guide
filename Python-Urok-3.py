@@ -69,3 +69,13 @@ a = int(input())
 b = int(input())
 n = int((h - a - 1) // (a - b) + 2)
 print(n)
+
+print('Задача «Число десятков»')
+x = int(input())
+if x // 10 == 0:
+    print(0)
+else:
+    n = int(x // 10)
+    v = str(n)
+    last_digit = int(v[-1])
+    print(last_digit)
