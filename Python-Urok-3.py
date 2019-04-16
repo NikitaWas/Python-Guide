@@ -35,3 +35,18 @@ v = n / 24
 from math import *
 t = ceil(m / v / 24)
 print(t)
+
+print('Задача «Стоимость покупки»') # Вариант-1
+a = int(input())
+b = int(input())
+n = int(input())
+x0 = a + b / 100
+x = round(x0 * n, 2)
+print(x)
+
+print('Задача «Стоимость покупки»') # Вариант-2
+a = int(input())
+b = int(input())
+n = int(input())
+x = n * (100 * a + b)
+print(x // 100, x % 100)
