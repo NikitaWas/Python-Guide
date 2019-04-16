@@ -79,3 +79,11 @@ else:
     v = str(n)
     last_digit = int(v[-1])
     print(last_digit)
+
+print('Задача «Сумма цифр»')
+x = int(input())
+v = str(x)
+first_digit = int(v[0])
+mean_digit = int(v[1])
+last_digit = int(v[-1])
+print(first_digit + mean_digit + last_digit)
