@@ -21,3 +21,9 @@ n = x % 1
 v = str(n)
 first_digit = int(v[2])
 print(first_digit)
+
+print('Задача «Конец уроков»')
+x = int(input())
+h = (x * 45 + (x // 2) * 5 + ((x + 1) // 2 - 1) * 15)
+m = h % 60
+print(h // 60 + 9, m)
