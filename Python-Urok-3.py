@@ -27,3 +27,11 @@ x = int(input())
 h = (x * 45 + (x // 2) * 5 + ((x + 1) // 2 - 1) * 15)
 m = h % 60
 print(h // 60 + 9, m)
+
+print('Задача «Автопробег»')
+n = int(input())
+m = int(input())
+v = n / 24
+from math import *
+t = ceil(m / v / 24)
+print(t)
