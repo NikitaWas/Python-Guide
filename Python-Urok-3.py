@@ -87,3 +87,10 @@ first_digit = int(v[0])
 mean_digit = int(v[1])
 last_digit = int(v[-1])
 print(first_digit + mean_digit + last_digit)
+
+print('Задача «Гипотенуза»')
+a = int(input())
+b = int(input())
+c = a**2 + b**2
+from math import *
+print(sqrt(c))
