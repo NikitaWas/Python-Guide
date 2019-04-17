@@ -115,3 +115,11 @@ print(h1+m1+s1)
 print('Задача «Часы - 2»')
 m1 = float(input())
 print(m1 % 30 * 12)
+
+print('Задача «Часы - 3»')
+f = float(input())
+h = int(f // 30)
+m = int(f % 30 * 2)
+s = int(f % 0.5 * 120)
+print(h, m, s)
+
