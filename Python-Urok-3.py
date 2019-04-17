@@ -94,3 +94,24 @@ b = int(input())
 c = a**2 + b**2
 from math import *
 print(sqrt(c))
+
+print('Задача «Часы - 1»') # Вариант-1
+h = int(input())
+m = int(input())
+s = int(input())
+s1 = h * 3600 + m * 60 + s
+u = 360 * s1 / 12 / 3600
+print(u)
+
+print('Задача «Часы - 1»') # Вариант-2
+h = int(input())
+m = int(input())
+s = int(input())
+h1 = h * 3600 * 360 / 12 / 3600
+m1 = m * 60 * 360 / 12 / 3600
+s1 = s * 360 / 12 / 3600
+print(h1+m1+s1)
+
+print('Задача «Часы - 2»')
+m1 = float(input())
+print(m1 % 30 * 12)
